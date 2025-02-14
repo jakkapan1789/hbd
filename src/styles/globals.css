@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +39,61 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+/* 
+body {
+  background-color: pink;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.hearts-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.heart {
+  position: absolute;
+  font-size: 2rem;
+} */
+
+body {
+  background-color: pink;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.hearts-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.heart {
+  position: absolute;
+  top: -10%;
+}
+
+.imageWrapper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: path(
+    "M 75 15 C 50 -10 0 10 0 50 C 0 100 75 140 75 140 C 75 140 150 100 150 50 C 150 10 100 -10 75 15 Z"
+  );
+  background: pink;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
